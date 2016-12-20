@@ -11,18 +11,21 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 
 
 
-var devices: [WifiDevice] = []
+var controllers: [LEDWifiControllerAPI] = []
 
-func runFunction(closure: (WifiDevice) -> Void) {
-    devices.forEach(closure)
+func runFunction(closure: (LEDWifiControllerAPI) -> Void) {
+    controllers.forEach(closure)
 }
 
 
 
 func afterDiscover() {
-    runFunction { (device) in
+    runFunction { (controller) in
+        controller.on()
 //        device.on()
-        device.setColor(UIColor(hue: 10, saturation: 1.0, brightness: 1.0, alpha: 1))
+//        device.off()
+//        device.setColor(UIColor(hue: 10, saturation: 1.0, brightness: 1.0, alpha: 1))
+//        device.setColor(.blue)
     }
 }
 
@@ -32,8 +35,8 @@ func afterDiscover() {
 let discover = WifiDeviceDiscoverer(timeout: 1)
 discover.discover { (result) in
     switch result {
-    case .devices(let theDevices):
-        devices = theDevices
+    case .devices(let devices):
+        controllers = devices.map{LEDWifiControllerAPI(ipAddress: $0.info.ipAddress)}
         afterDiscover()
         
     case .error(let error):
