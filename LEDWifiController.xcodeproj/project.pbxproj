@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F457B8B6C520A42CEB142DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0834DBB03D4F9E01A01E0C /* Foundation.framework */; };
+		6D99B806FEAE02F6DA222AA5 /* Pods_CocoaAsyncSocketPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61DFCAD16922F6E803102F9 /* Pods_CocoaAsyncSocketPlayground.framework */; };
+		C724A0387CC60BFDC6D6959F /* Pods_LEDWifiController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFDEC21A5EE40741BF09F2B /* Pods_LEDWifiController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0834DBB03D4F9E01A01E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E12FDB1C5CC1F71C6617760 /* Pods-CocoaAsyncSocketPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaAsyncSocketPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaAsyncSocketPlayground/Pods-CocoaAsyncSocketPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		45B4B3181E090E9A00B71D09 /* LEDWifiController.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LEDWifiController.playground; sourceTree = "<group>"; };
+		5FCCF449B80AD8148F505F80 /* Pods-LEDWifiController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDWifiController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEDWifiController/Pods-LEDWifiController.debug.xcconfig"; sourceTree = "<group>"; };
+		7F256267823F334A5E8901C7 /* Pods-LEDWifiController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDWifiController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEDWifiController/Pods-LEDWifiController.release.xcconfig"; sourceTree = "<group>"; };
+		87C04979B9760BC7CCA393E6 /* Pods-CocoaAsyncSocketPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaAsyncSocketPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaAsyncSocketPlayground/Pods-CocoaAsyncSocketPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		8DFDEC21A5EE40741BF09F2B /* Pods_LEDWifiController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEDWifiController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FA8D01407F80C40A8156DD /* LEDWifiController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDWifiController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61DFCAD16922F6E803102F9 /* Pods_CocoaAsyncSocketPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaAsyncSocketPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F4052E03B1351DDEAAB12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F457B8B6C520A42CEB142DD /* Foundation.framework in Frameworks */,
+				6D99B806FEAE02F6DA222AA5 /* Pods_CocoaAsyncSocketPlayground.framework in Frameworks */,
+				C724A0387CC60BFDC6D6959F /* Pods_LEDWifiController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69991B7325A35C9405B3048A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FA8D01407F80C40A8156DD /* LEDWifiController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DDA805344F4F18F772BA88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD54420C4750F70CE63B5FDE /* iOS */,
+				B61DFCAD16922F6E803102F9 /* Pods_CocoaAsyncSocketPlayground.framework */,
+				8DFDEC21A5EE40741BF09F2B /* Pods_LEDWifiController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7797696F40DE68891ACEA5D2 = {
+			isa = PBXGroup;
+			children = (
+				45B4B3181E090E9A00B71D09 /* LEDWifiController.playground */,
+				69991B7325A35C9405B3048A /* Products */,
+				74DDA805344F4F18F772BA88 /* Frameworks */,
+				AC2F10464208C7664A0862C4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2F10464208C7664A0862C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E12FDB1C5CC1F71C6617760 /* Pods-CocoaAsyncSocketPlayground.release.xcconfig */,
+				87C04979B9760BC7CCA393E6 /* Pods-CocoaAsyncSocketPlayground.debug.xcconfig */,
+				7F256267823F334A5E8901C7 /* Pods-LEDWifiController.release.xcconfig */,
+				5FCCF449B80AD8148F505F80 /* Pods-LEDWifiController.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD54420C4750F70CE63B5FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D0834DBB03D4F9E01A01E0C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAAD0734EAD518CA1BEF2D13 /* LEDWifiController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD41F7864610A84B56E9262 /* Build configuration list for PBXNativeTarget "LEDWifiController" */;
+			buildPhases = (
+				F6D47636C5098B64EC9E7CA1 /* [CP] Check Pods Manifest.lock */,
+				5DAC30C92CAD7CE22876C9ED /* Sources */,
+				C2F4052E03B1351DDEAAB12C /* Frameworks */,
+				4D6705D47B78DDE09DC23435 /* [CP] Embed Pods Frameworks */,
+				4CEC4324CFCEEF4C822FB8B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDWifiController;
+			productName = CocoaAsyncSocketPlayground;
+			productReference = 92FA8D01407F80C40A8156DD /* LEDWifiController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7826A02386F9ECC9BCA8EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = CCA27549346D10F4520D991E /* Build configuration list for PBXProject "LEDWifiController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7797696F40DE68891ACEA5D2;
+			productRefGroup = 69991B7325A35C9405B3048A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAAD0734EAD518CA1BEF2D13 /* LEDWifiController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CEC4324CFCEEF4C822FB8B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEDWifiController/Pods-LEDWifiController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D6705D47B78DDE09DC23435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEDWifiController/Pods-LEDWifiController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D47636C5098B64EC9E7CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAC30C92CAD7CE22876C9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CF511E0BBF67C809ABECD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		44B29C33CDB86673511E4B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F256267823F334A5E8901C7 /* Pods-LEDWifiController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B623B7F1605C89EF1E3CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCCF449B80AD8148F505F80 /* Pods-LEDWifiController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFEE4AB2FF0D6DACC16ADBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD41F7864610A84B56E9262 /* Build configuration list for PBXNativeTarget "LEDWifiController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B29C33CDB86673511E4B68 /* Release */,
+				63B623B7F1605C89EF1E3CD8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA27549346D10F4520D991E /* Build configuration list for PBXProject "LEDWifiController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF511E0BBF67C809ABECD11 /* Debug */,
+				AFEE4AB2FF0D6DACC16ADBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7826A02386F9ECC9BCA8EBE /* Project object */;
+}
