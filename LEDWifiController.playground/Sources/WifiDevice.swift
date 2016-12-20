@@ -1,9 +1,9 @@
 //
 //  WifiDevice.swift
-//  RGB Remote
+//  LEDWifiController
 //
-//  Created by Christian Hatch on 10/19/16.
-//  Copyright © 2016 Knot Labs. All rights reserved.
+//  Created by Christian Hatch on 12/20/16.
+//  Copyright © 2016 Christian Hatch. All rights reserved.
 //
 
 import Foundation
